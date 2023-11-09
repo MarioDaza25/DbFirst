@@ -34,17 +34,7 @@ public class DriverController : BaseApiController
         return _mapper.Map<GetDriverDto>(driver);
     }
 
-    // [HttpGet]
-    // [ApiVersion("1.1")]
-    // [ProducesResponseType(StatusCodes.Status200OK)]
-    // [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    // public async Task<ActionResult<Pager<Driver>>> Get([FromQuery] Params TeamParams)
-    // {
-    //     var (totalRegistros, registros) = await _unitOfWork.Colores.GetAllAsync(ColorParams.PageIndex,ColorParams.PageSize,ColorParams.Search);
-    //     var listaColor = _mapper.Map<List<Driver>>(registros);
-    //     return new Pager<Driver>(listaColor,totalRegistros,ColorParams.PageIndex,ColorParams.PageSize,ColorParams.Search);
-    // }
-
+   
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]

@@ -34,17 +34,6 @@ public class TeamController : BaseApiController
         return _mapper.Map<GetTeamDto>(team);
     }
 
-    // [HttpGet]
-    // [ApiVersion("1.1")]
-    // [ProducesResponseType(StatusCodes.Status200OK)]
-    // [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    // public async Task<ActionResult<Pager<Team>>> Get([FromQuery] Params TeamParams)
-    // {
-    //     var (totalRegistros, registros) = await _unitOfWork.Colores.GetAllAsync(ColorParams.PageIndex,ColorParams.PageSize,ColorParams.Search);
-    //     var listaColor = _mapper.Map<List<Team>>(registros);
-    //     return new Pager<Team>(listaColor,totalRegistros,ColorParams.PageIndex,ColorParams.PageSize,ColorParams.Search);
-    // }
-
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]

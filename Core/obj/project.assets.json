@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\AIO\\.nuget\\packages\\": {}
+    "C:\\Users\\mario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AIO\\Documents\\c#\\DbFirst\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\mario\\OneDrive\\Escritorio\\DbFirst\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\AIO\\Documents\\c#\\DbFirst\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\AIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AIO\\Documents\\c#\\DbFirst\\Core\\obj\\",
+      "projectPath": "C:\\Users\\mario\\OneDrive\\Escritorio\\DbFirst\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mario\\OneDrive\\Escritorio\\DbFirst\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

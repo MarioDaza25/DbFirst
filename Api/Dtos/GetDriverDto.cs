@@ -1,6 +1,8 @@
+using Core.Entities;
+
 namespace Api.Dtos
 {
-    public class DriverDto
+    public class GetDriverDto
     {
         public int Id { get; set; }
 
@@ -8,5 +10,6 @@ namespace Api.Dtos
 
         public int? Age { get; set; }
 
+        public ICollection<TeamDto> Teams {get;set;}
     }
 }
